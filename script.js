@@ -35,7 +35,7 @@ async function searchUser() {
     profileContainer.classList.add("hidden");
     errorContainer.classList.add("hidden");
 
-    // https://api.github.com/users/burakorkmez
+    // https://api.github.com/users/google
     const response = await fetch(`https://api.github.com/users/${username}`);
     if (!response.ok) throw new Error("User not found");
 
@@ -161,5 +161,5 @@ function formatDate(dateString) {
   });
 }
 
-searchInput.value = "burakorkmez";
+searchInput.value = "google";
 searchUser();
