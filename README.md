@@ -1,18 +1,35 @@
 # GitHub Profile Explorer
 
-A frontend web application that allows users to search GitHub profiles
-and view public information using the GitHub API.
+A **responsive frontend web app** to search and explore GitHub user profiles and repositories using the GitHub API.  
+This project demonstrates **API integration**, **asynchronous JavaScript**, and **deployment best practices**.
 
-## Features
-- Search GitHub users
-- View profile details
-- Display latest repositories
-- Responsive design
+---
 
-## Technologies
-- HTML
-- CSS
-- JavaScript
-- GitHub API
+## 🔗 Live Demo
+[View Live Demo](https://github-profile-explorer-demo.netlify.app/)
 
+---
 
+## 🛠️ Features
+- Search any GitHub username and display profile details
+- View latest repositories with key stats (stars, forks, language)
+- Responsive design for desktop and mobile
+- Handles errors gracefully (user not found)
+- Deployment-ready using Netlify
+
+---
+
+## 💻 Tech Stack
+- HTML5
+- CSS3 (custom + responsive design)
+- JavaScript (ES6+)
+- Font Awesome icons
+- GitHub REST API
+- Netlify (for hosting)
+
+---
+
+## 🚀 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/javairia772/github-user-finder.git
